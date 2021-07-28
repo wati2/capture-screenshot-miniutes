@@ -7,3 +7,8 @@ pythonw .\main.py
 
 ### tsaskkill
 taskkill /f /im "pythonw.exe"
+
+### pip: requirements 파일 생성과 사용
+한번에 설치 `$ pip install -r requirements.txt`
+
+환경 한번에 꺼내오기 `$ pip freeze > requirements.txt`
